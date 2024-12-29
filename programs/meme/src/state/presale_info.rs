@@ -20,7 +20,7 @@ pub struct PresaleInfo {
     pub max_token_amount_per_address: u64,
     // Min amount of presale tokens an address can purchase in SOL
     pub min_token_amount_per_address: u64,
-    // Quote token per presale token
+    // Quote token per presale token price by sol
     pub price_per_token: u64,
     // Presale is buyable
     pub is_live: bool,
